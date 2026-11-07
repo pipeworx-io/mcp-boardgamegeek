@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/boardgamegeek",
+  "title": "Boardgamegeek",
+  "description": "BoardGameGeek board-game data: game metadata, community ratings, ranks, search and the 'hot' list.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/boardgamegeek",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-boardgamegeek",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/boardgamegeek/mcp"
+    }
+  ]
+}

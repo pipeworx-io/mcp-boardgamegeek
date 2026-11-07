@@ -1,0 +1,33 @@
+{
+  "name": "@pipeworx/mcp-boardgamegeek",
+  "version": "0.1.0",
+  "description": "BoardGameGeek board-game data: game metadata, community ratings, ranks, search and the 'hot' list.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "mcp-boardgamegeek": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "boardgamegeek"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-boardgamegeek.git"
+  },
+  "mcpName": "io.github.pipeworx-io/boardgamegeek",
+  "pipeworx": {
+    "mode": "gateway",
+    "slug": "boardgamegeek",
+    "gatewaySlug": "boardgamegeek",
+    "sourceHash": "v1-1a633e6fd2a82e42b297f504544b569f3c97821f4f2bb71f2bf0a8d14d993c24",
+    "sourceCommit": "8880ae4088c0e7809a05ec8dfdb14055c2dc6499"
+  }
+}
